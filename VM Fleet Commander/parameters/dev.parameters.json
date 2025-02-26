@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "prefix": {
+        "value": "vmfleet"
+      },
+      "environment": {
+        "value": "dev"
+      },
+      "location": {
+        "value": "southafricanorth"
+      },
+      "vmSize": {
+        "value": "Standard_B2s"
+      },
+      "vmCount": {
+        "value": 2
+      },
+      "adminUsername": {
+        "value": "tafadzwa"
+      },
+      "adminPassword": {
+        "value": "passwordgreen"
+      }
+    }
+  }
+  
